@@ -1,0 +1,38 @@
+name: Refresh racket catalogue
+
+on:
+  schedule:
+    # Runs on the 1st and 15th of every month (roughly every two weeks)
+    - cron: '0 3 1,15 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run catalogue update script
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/update-catalog.mjs
+
+      - name: Commit and push updated catalogue
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/racketCatalog.json
+          git diff --staged --quiet || git commit -m "Automated catalogue refresh"
+          git push
