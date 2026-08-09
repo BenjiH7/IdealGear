@@ -3,6 +3,7 @@ import { LegalPage } from "@/components/LegalPage";
 export const metadata = {
   title: "Terms of Use",
   description: "The terms for using IdealGear.",
+  alternates: { canonical: "/terms-of-use" },
 };
 
 export default function TermsPage() {

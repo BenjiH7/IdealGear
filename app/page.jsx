@@ -5,6 +5,15 @@ import { CATALOG_LAST_UPDATED } from "@/lib/engine";
 import { MatchVisual, QuestionnaireVisual, WholePlayerVisual, AffiliateDisclosure } from "@/components/Visuals";
 import { Logo } from "@/components/Logo";
 
+// Tells Google this is the authoritative URL for this content — important
+// now that the site is reachable at both idealgear.co and the original
+// ideal-gear.vercel.app address, so ranking signal doesn't get split
+// between the two.
+export const metadata = {
+  alternates: { canonical: "/" },
+};
+
+
 // This whole page is a Server Component — no "use client" needed, since
 // navigation is done with real <Link> elements rather than onClick state
 // changes. That means the HTML (including all this copy) is present in the
