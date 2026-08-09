@@ -36,6 +36,7 @@ export function ResultsView({ answers, onEdit, onRestart }) {
       <div className="px-5 pt-8 max-w-2xl mx-auto">
         <p className="text-[12px] font-semibold tracking-wide uppercase text-white/50">Your IdealGear results</p>
         <h1 className="font-serif text-[26px] leading-tight mt-1 text-white">We found {results.length} rackets that fit your game.</h1>
+        <p className="text-[13px] text-white/50 mt-2">Tap &quot;Compare&quot; on 2 or more rackets below to see them side by side.</p>
 
         {challenge && (
           <div className="mt-4 rounded-xl p-4 border bg-white/10 border-white/20">
@@ -47,6 +48,11 @@ export function ResultsView({ answers, onEdit, onRestart }) {
           <button onClick={onEdit} className="flex-1 px-4 py-3 rounded-xl border border-white/25 text-[14px] font-medium flex items-center justify-center gap-2 text-white">
             <RotateCcw size={15} /> Edit My Answers
           </button>
+          {compareIds.length === 1 && (
+            <div className="flex-1 px-4 py-3 rounded-xl border border-white/25 text-[14px] font-medium flex items-center justify-center gap-2 text-white/70">
+              <Scale size={15} /> 1 selected — pick 1 more
+            </div>
+          )}
           {compareIds.length >= 2 && (
             <button onClick={() => setShowCompare(true)} className="flex-1 px-4 py-3 rounded-xl text-[14px] font-medium flex items-center justify-center gap-2" style={{ backgroundColor: "white", color: TEAL_DARK }}>
               <Scale size={15} /> Compare ({compareIds.length})

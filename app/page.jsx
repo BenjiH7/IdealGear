@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { TEAL, TEAL_DARK, TEAL_BRIGHT, INK } from "@/lib/theme";
 import { CATALOG_LAST_UPDATED } from "@/lib/engine";
 import { MatchVisual, QuestionnaireVisual, WholePlayerVisual, AffiliateDisclosure } from "@/components/Visuals";
+import { Logo } from "@/components/Logo";
 
 // This whole page is a Server Component — no "use client" needed, since
 // navigation is done with real <Link> elements rather than onClick state
@@ -28,9 +29,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen overflow-hidden" style={{ background: `linear-gradient(180deg, ${TEAL_DARK} 0%, ${TEAL} 45%, ${TEAL_DARK} 100%)` }}>
       <header className="px-5 pt-6 pb-1 max-w-5xl mx-auto flex items-center justify-between">
-        <div className="font-serif text-3xl sm:text-4xl tracking-tight">
-          <span className="text-white">Ideal</span><span style={{ color: TEAL_BRIGHT }}>Gear</span>
-        </div>
+        <Logo />
       </header>
 
       {/* HERO */}
