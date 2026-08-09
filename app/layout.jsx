@@ -5,7 +5,7 @@ import { CookieBanner } from "@/components/CookieBanner";
 // via their own generateMetadata() — this is just the fallback plus the
 // shared tags (favicon, Open Graph defaults) that apply everywhere.
 export const metadata = {
-  metadataBase: new URL("https://ideal-gear.vercel.app"), // update again if/when you move to a custom domain
+  metadataBase: new URL("https://idealgear.co"), // real domain — update if this ever changes
   title: {
     default: "IdealGear — Find the padel racket that fits your game",
     template: "%s | IdealGear",
@@ -23,6 +23,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
+  },
+  verification: {
+    google: "j3nG3_FG8sHt-wxuge_8n62vSjOifbJPUEph-_JYLYI",
   },
 };
 
