@@ -6,6 +6,7 @@ import { RacketShapeIcon } from "@/components/Visuals";
 export const metadata = {
   title: "What a Padel Racket Recommendation Looks Like",
   description: "See a sample IdealGear padel racket recommendation — match percentage, reasons, drawbacks and best price, before you try the real questionnaire.",
+  alternates: { canonical: "/sample-recommendation" },
 };
 
 const sample = {

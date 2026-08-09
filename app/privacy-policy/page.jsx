@@ -3,6 +3,7 @@ import { LegalPage } from "@/components/LegalPage";
 export const metadata = {
   title: "Privacy Policy",
   description: "How IdealGear handles your data.",
+  alternates: { canonical: "/privacy-policy" },
 };
 
 // PLACEHOLDER CONTENT — this is a starting draft, not legal advice. Have a

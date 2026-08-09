@@ -3,6 +3,7 @@ import { LegalPage } from "@/components/LegalPage";
 export const metadata = {
   title: "Affiliate Disclosure",
   description: "How IdealGear uses affiliate links, and why it never affects which racket is recommended.",
+  alternates: { canonical: "/affiliate-disclosure" },
 };
 
 export default function AffiliateDisclosurePage() {
