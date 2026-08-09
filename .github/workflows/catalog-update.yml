@@ -1,38 +1,51 @@
 name: Refresh racket catalogue
 
+# Manual trigger ONLY — the automatic twice-a-month schedule was removed.
+# This script calls the Anthropic API directly, which is billed separately
+# from a Claude Pro subscription (roughly $8-15 per full run, based on
+# real usage — see the cost discussion in project history). Running it
+# automatically on a schedule means it can spend money without you
+# explicitly deciding to that day, so it now only runs when someone
+# clicks "Run workflow" in the Actions tab.
+#
+# Cheaper alternative for routine updates: ask Claude Code directly to do
+# the same research (web search + edit data/racketCatalog.json + push a
+# PR) — that uses your existing Pro subscription's usage allowance rather
+# than separate API billing. Save this workflow for when you specifically
+# want the fully automated, unattended version and are OK with the cost.
 on:
-  schedule:
-    # Runs on the 1st and 15th of every month (roughly every two weeks)
-    - cron: '0 3 1,15 * *'
-  workflow_dispatch:
-
-permissions:
-  contents: write
+  workflow_dispatch: {}
 
 jobs:
   update-catalog:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: "20"
 
       - name: Install dependencies
-        run: npm install
+        run: npm install @anthropic-ai/sdk
 
-      - name: Run catalogue update script
+      - name: Run catalogue research + update
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/update-catalog.mjs
 
-      - name: Commit and push updated catalogue
+      - name: Commit and push if the catalogue changed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "IdealGear catalogue bot"
+          git config user.email "actions@users.noreply.github.com"
           git add data/racketCatalog.json
-          git diff --staged --quiet || git commit -m "Automated catalogue refresh"
-          git push
+          if git diff --staged --quiet; then
+            echo "No catalogue changes this run."
+          else
+            git commit -m "Automated racket catalogue refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi
