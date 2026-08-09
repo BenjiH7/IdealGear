@@ -126,7 +126,7 @@ export function RacketShapeIcon({ shape }) {
         <rect x="17" y="33" width="6" height="12" rx="2" fill={TEAL} opacity="0.35" />
         {isDiamond && <path d="M20 4 L34 19 Q34 25 29 31 L20 37 L11 31 Q6 25 6 19 Z" fill="none" stroke={TEAL} strokeWidth="2.5" />}
         {isRound && <ellipse cx="20" cy="19" rx="15" ry="16" fill="none" stroke={TEAL} strokeWidth="2.5" />}
-        {!isDiamond && !isRound && <path d="M20 3 C30 3 35 11 35 18 C35 27 29 33 20 36 C11 33 5 27 5 18 C5 11 10 3 20 3 Z" fill="none" stroke={TEAL} strokeWidth="2.5" />}
+        {!isDiamond && !isRound && <path d="M20 5 C13 13 7 20 7 26 C7 32 13 36.5 20 36.5 C27 36.5 33 32 33 26 C33 20 27 13 20 5 Z" fill="none" stroke={TEAL} strokeWidth="2.5" />}
         <circle cx="20" cy="18" r="1.6" fill={TEAL} opacity="0.5" />
         <circle cx="14" cy="14" r="1.2" fill={TEAL} opacity="0.35" />
         <circle cx="26" cy="14" r="1.2" fill={TEAL} opacity="0.35" />
