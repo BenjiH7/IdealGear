@@ -2,7 +2,7 @@ import { GUIDE_CONFIGS } from "@/lib/guideConfigs";
 
 // TODO: replace with your real domain before launch (also update
 // metadataBase in app/layout.jsx to match).
-const BASE_URL = "https://your-domain-here.com";
+const BASE_URL = "https://ideal-gear.vercel.app"; // update again if/when you move to a custom domain
 
 export default function sitemap() {
   const staticRoutes = [
