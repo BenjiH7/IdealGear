@@ -108,6 +108,31 @@ if (!process.env.ANTHROPIC_API_KEY) {
 
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
+function extractJson(msg) {
+  // With web search enabled, the model's response often includes several
+  // text blocks — commentary while it searches, then a final answer. Only
+  // the LAST text block is the actual final answer; joining every block
+  // together (as an earlier version of this script did) mixes that
+  // commentary in with the data and breaks JSON.parse.
+  const textBlocks = msg.content.filter((b) => b.type === "text");
+  if (!textBlocks.length) return null;
+  const text = textBlocks[textBlocks.length - 1].text;
+
+  // Even the final block can have a little prose around the JSON (e.g.
+  // "Here's what I found:" before it) — extract just the {...} substring
+  // rather than assuming the whole block is pure JSON.
+  const cleaned = text.replace(/```json|```/g, "").trim();
+  const start = cleaned.indexOf("{");
+  const end = cleaned.lastIndexOf("}");
+  if (start === -1 || end === -1 || end < start) return null;
+  try {
+    return JSON.parse(cleaned.slice(start, end + 1));
+  } catch {
+    return null;
+  }
+}
+
+
 function slugify(brand, model) {
   return `${brand}-${model}`
     .toLowerCase()
@@ -137,13 +162,8 @@ If you can't find a confident real price, respond { "found": false }.`;
     messages: [{ role: "user", content: prompt }],
   });
 
-  const text = msg.content.filter((b) => b.type === "text").map((b) => b.text).join("\n");
-  const cleaned = text.replace(/```json|```/g, "").trim();
-  try {
-    return JSON.parse(cleaned);
-  } catch {
-    return { found: false };
-  }
+  const parsed = extractJson(msg);
+  return parsed || { found: false };
 }
 
 async function refreshExistingPrices(data) {
@@ -207,18 +227,12 @@ If nothing new is found, return { "newRackets": [], "possiblyDiscontinued": [] }
     messages: [{ role: "user", content: prompt }],
   });
 
-  const text = msg.content
-    .filter((b) => b.type === "text")
-    .map((b) => b.text)
-    .join("\n");
-
-  const cleaned = text.replace(/```json|```/g, "").trim();
-  try {
-    return JSON.parse(cleaned);
-  } catch (err) {
-    console.error(`Could not parse response for ${brand}, skipping this run for this brand.\n`, cleaned.slice(0, 500));
+  const parsed = extractJson(msg);
+  if (!parsed) {
+    console.error(`Could not extract JSON from response for ${brand}, skipping this run for this brand.`);
     return { newRackets: [], possiblyDiscontinued: [] };
   }
+  return parsed;
 }
 
 async function main() {
