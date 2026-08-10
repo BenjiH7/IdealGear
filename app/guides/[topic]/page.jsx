@@ -86,12 +86,37 @@ export default function GuidePage({ params }) {
           })}
         </div>
 
+        {cfg.body && (
+          <div className="mt-8 space-y-6">
+            {cfg.body.map(([sectionHeading, paragraph]) => (
+              <div key={sectionHeading}>
+                <h2 className="font-serif text-[17px] text-white mb-2">{sectionHeading}</h2>
+                <p className="text-[14px] text-white/70 leading-relaxed">{paragraph}</p>
+              </div>
+            ))}
+          </div>
+        )}
+
         <p className="text-[13px] text-white/70 mt-6 leading-relaxed">
           Every player is different — for a recommendation based on your own level, style and budget rather than a general list, try the full IdealGear questionnaire.
         </p>
         <Link href="/questionnaire" className="mt-4 w-full inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl font-semibold text-[15px] shadow-[0_8px_24px_rgba(0,0,0,0.18)]" style={{ backgroundColor: "white", color: TEAL_DARK }}>
           Find My Ideal Racket <ArrowRight size={18} />
         </Link>
+
+        <div className="mt-8 pt-6 border-t border-white/10">
+          <p className="text-[12px] font-semibold tracking-wide uppercase text-white/50 mb-3">Related guides</p>
+          <div className="flex flex-wrap gap-x-4 gap-y-2">
+            {Object.entries(GUIDE_CONFIGS)
+              .filter(([key]) => key !== params.topic)
+              .slice(0, 6)
+              .map(([key, otherCfg]) => (
+                <Link key={key} href={`/guides/${key}`} className="text-[13px] underline text-white/70 hover:text-white">
+                  {otherCfg.heading}
+                </Link>
+              ))}
+          </div>
+        </div>
 
         <div className="mt-8 pt-6 border-t border-white/10">
           <AffiliateDisclosure dark />
