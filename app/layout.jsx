@@ -1,5 +1,6 @@
 import "./globals.css";
 import { CookieBanner } from "@/components/CookieBanner";
+import { Analytics } from "@vercel/analytics/next";
 
 // Site-wide default metadata. Individual pages override title/description
 // via their own generateMetadata() — this is just the fallback plus the
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
       <body className="font-sans antialiased">
         {children}
         <CookieBanner />
+        <Analytics />
       </body>
     </html>
   );
