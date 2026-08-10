@@ -124,7 +124,7 @@ export function RacketShapeIcon({ shape }) {
     <div className="shrink-0 w-11 h-11 rounded-xl flex items-center justify-center" style={{ backgroundColor: "#EAF6F4" }}>
       <svg width="26" height="32" viewBox="0 0 40 48">
         <rect x="17" y="33" width="6" height="12" rx="2" fill={TEAL} opacity="0.35" />
-        {isDiamond && <path d="M20 36 L7 17 Q6 11 12 6 L20 3 L28 6 Q34 11 33 17 Z" fill="none" stroke={TEAL} strokeWidth="2.5" />}
+        {isDiamond && <path d="M14 4 L26 4 L33 16 L20 36 L7 16 Z" fill="none" stroke={TEAL} strokeWidth="2.5" strokeLinejoin="round" />}
         {isRound && <ellipse cx="20" cy="19" rx="15" ry="16" fill="none" stroke={TEAL} strokeWidth="2.5" />}
         {!isDiamond && !isRound && <path d="M20 36 C13 28 7 21 7 15 C7 9 13 4 20 4 C27 4 33 9 33 15 C33 21 27 28 20 36 Z" fill="none" stroke={TEAL} strokeWidth="2.5" />}
         <circle cx="20" cy="18" r="1.6" fill={TEAL} opacity="0.5" />
