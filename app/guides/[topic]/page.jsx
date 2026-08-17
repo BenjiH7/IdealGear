@@ -73,7 +73,7 @@ export default function GuidePage({ params }) {
                 <RacketShapeIcon shape={racket.shape} />
                 <div>
                   <h2 className="font-serif text-[18px]" style={{ color: INK }}>{racket.brand} {racket.model}</h2>
-                  <p className="text-[13px] text-black/45 mt-0.5">{racket.shape} · {racket.year} · £{listing.price}</p>
+                  <p className="text-[13px] text-black/45 mt-0.5">{racket.shape} · {racket.year} · {listing.currencySymbol}{listing.price}</p>
                   <p className="text-[13px] mt-2" style={{ color: TEAL_DARK }}>{buildBestFor(racket)}</p>
                   {listing.url ? (
                     <a href={listing.url} target="_blank" rel="noreferrer" className="text-[11px] underline break-all mt-2 block" style={{ color: TEAL_DARK }}>{listing.url}</a>

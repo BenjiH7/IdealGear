@@ -458,7 +458,7 @@
       "spin": 7,
       "defense": 7,
       "offense": 7,
-      "beginnerFit": 4,
+      "beginnerFit": 6,
       "intermediateFit": 8,
       "advancedFit": 8,
       "armFriendly": 6
@@ -568,7 +568,7 @@
       "spin": 7,
       "defense": 6,
       "offense": 7,
-      "beginnerFit": 4,
+      "beginnerFit": 6,
       "intermediateFit": 8,
       "advancedFit": 8,
       "armFriendly": 7
@@ -1464,520 +1464,1601 @@
   "listings": [
     {
       "racketId": "bp-vertex-04",
-      "retailer": "Amazon UK",
-      "price": 138,
-      "originalPrice": null,
-      "url": "https://www.amazon.co.uk/Bullpadel-Vertex-Padel-Racket-Dark/dp/B0DHZJL6FJ",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026"
+      "regions": {
+        "UK": {
+          "retailer": "Amazon UK",
+          "price": 138,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://www.amazon.co.uk/Bullpadel-Vertex-Padel-Racket-Dark/dp/B0DHZJL6FJ",
+          "verified": true,
+          "checkedLabel": "Checked August 2026"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 150,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/bullpadel-vertex-04-110865-p",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+        },
+        "US": {
+          "retailer": "Racket Central (US)",
+          "price": 279,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://racketcentral.com/collections/bullpadel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel USA, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "bp-hack-03",
-      "retailer": "PDHSports",
-      "price": 179,
-      "originalPrice": 199,
-      "url": "https://www.pdhsports.com/i/q/RPBP32336/bullpadel-hack-03-24-padel-racket",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports",
+          "price": 179,
+          "originalPrice": 199,
+          "currency": "GBP",
+          "url": "https://www.pdhsports.com/i/q/RPBP32336/bullpadel-hack-03-24-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 120,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/bullpadel-xplo-2025-113777-p",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+        },
+        "US": {
+          "retailer": "Racket Central (US)",
+          "price": 242,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://racketcentral.com/collections/bullpadel-rackets",
+          "verified": false,
+          "checkedLabel": "Real US retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        }
+      }
     },
     {
       "racketId": "nox-ml10",
-      "retailer": "Nox Official Store",
-      "price": 140,
-      "originalPrice": 189.99,
-      "url": "https://noxsport.com/en/products/ml10-pro-cup-luxury-series-23",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "Nox Official Store",
+          "price": 140,
+          "originalPrice": 189.99,
+          "currency": "GBP",
+          "url": "https://noxsport.com/en/products/ml10-pro-cup-luxury-series-23",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 140,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/nox",
+          "verified": false,
+          "checkedLabel": "Real EU retailer category page \u2014 exact product URL not individually confirmed"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 189,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/collections/nox",
+          "verified": false,
+          "checkedLabel": "Real US retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        }
+      }
     },
     {
       "racketId": "nox-at10",
-      "retailer": "PDHSports (UK)",
-      "price": 230.0,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/nox-at10-genius-12k-alum-xtrem-agustin-tapia-padel-racket-26",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 230.0,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/nox-at10-genius-12k-alum-xtrem-agustin-tapia-padel-racket-26",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 230,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/nox-at10-genius-12k-alum-xtrem-by-agustin-tapia-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real via live page fetch"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 310,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/collections/nox",
+          "verified": false,
+          "checkedLabel": "Real US retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        }
+      }
     },
     {
       "racketId": "head-speed-pro",
-      "retailer": "All Things Tennis",
-      "price": 155,
-      "originalPrice": null,
-      "url": "https://allthingstennis.co.uk/products/head-radical-pro-padel",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "All Things Tennis",
+          "price": 155,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://allthingstennis.co.uk/products/head-radical-pro-padel",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 120,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/head-speed-pro-2023-32509-p",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 300,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/head-radical-pro-2026-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "head-motion",
-      "retailer": "All Things Tennis",
-      "price": 110,
-      "originalPrice": 149,
-      "url": "https://allthingstennis.co.uk/products/head-radical-motion-padel-2026",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "All Things Tennis",
+          "price": 110,
+          "originalPrice": 149,
+          "currency": "GBP",
+          "url": "https://allthingstennis.co.uk/products/head-radical-motion-padel-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 105,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/head-speed-motion-2023-32510-p",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 255,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/head-radical-motion-2026-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "babolat-viper",
-      "retailer": "PDHSports (UK)",
-      "price": 272.0,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/babolat-technical-viper-3-0-padel-racket",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price, in stock"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 272.0,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/babolat-technical-viper-3-0-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price, in stock"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 330,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/babolat",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel Nuestro, exact individual product URL not confirmed"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 312,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/babolat-technical-viper-3-0-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "babolat-technical-veron",
-      "retailer": "PDHSports (UK)",
-      "price": 170.0,
-      "originalPrice": 219,
-      "url": "https://pdhsports.com/products/babolat-technical-veron-3-0-padel-racket",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price, in stock"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 170.0,
+          "originalPrice": 219,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/babolat-technical-veron-3-0-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price, in stock"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 198,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/babolat",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel Nuestro, exact individual product URL not confirmed"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 200,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/babolat-technical-veron-2-6-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "wilson-bela-pro",
-      "retailer": "Wilson Official Store (UK)",
-      "price": 220,
-      "originalPrice": null,
-      "url": "https://www.wilson.com/en-gb/padel/racquets/bela",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real official store category page; exact price not individually confirmed"
+      "regions": {
+        "UK": {
+          "retailer": "Wilson Official Store (UK)",
+          "price": 220,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://www.wilson.com/en-gb/padel/racquets/bela",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real official store category page; exact price not individually confirmed"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 217,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/wilson",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel Nuestro, exact individual product URL not confirmed"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 399,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/wilson-bela-pro-v3-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "wilson-bela-clash",
-      "retailer": "Wilson Official Store (UK)",
-      "price": 150,
-      "originalPrice": 159,
-      "url": "https://www.wilson.com/en-gb/padel/racquets/bela",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real official store category page; exact price not individually confirmed — model name corrected to a verified real product name"
+      "regions": {
+        "UK": {
+          "retailer": "Wilson Official Store (UK)",
+          "price": 150,
+          "originalPrice": 159,
+          "currency": "GBP",
+          "url": "https://www.wilson.com/en-gb/padel/racquets/bela",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real official store category page; exact price not individually confirmed \u2014 model name corrected to a verified real product name"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 160,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/wilson",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel Nuestro, exact individual product URL not confirmed"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 199,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/wilson-blade-ls-v3-2024-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "siux-electra",
-      "retailer": "Siux Official Store",
-      "price": 175,
-      "originalPrice": null,
-      "url": "https://www.siuxpadel.com/en/products/siux-trilogy-go-5",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "Siux Official Store",
+          "price": 175,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://www.siuxpadel.com/en/products/siux-trilogy-go-5",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 65,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/siux",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel Nuestro, exact individual product URL not confirmed"
+        },
+        "US": {
+          "retailer": "PadelPROShop (US)",
+          "price": 236,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelproshop.com/en-us/collections/siux-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Real US retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        }
+      }
     },
     {
       "racketId": "siux-tarima",
-      "retailer": "PDHSports (UK)",
-      "price": 169.99,
-      "originalPrice": 239,
-      "url": "https://pdhsports.com/products/siux-electra-elite-6-padel-racket-2026",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price, in stock"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 169.99,
+          "originalPrice": 239,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/siux-electra-elite-6-padel-racket-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price, in stock"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 160,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/siux",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel Nuestro, exact individual product URL not confirmed"
+        },
+        "US": {
+          "retailer": "PadelPROShop (US)",
+          "price": 229,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelproshop.com/en-us/collections/siux-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Real US retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        }
+      }
     },
     {
       "racketId": "oxdog-ultimate-pro-26",
-      "retailer": "Oxdog Padel UK",
-      "price": 275,
-      "originalPrice": null,
-      "url": "https://www.oxdogpadel.uk/rackets",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real official UK store price list"
+      "regions": {
+        "UK": {
+          "retailer": "Oxdog Padel UK",
+          "price": 275,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://www.oxdogpadel.uk/rackets",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real official UK store price list"
+        },
+        "EU": {
+          "retailer": "Oxdog Padel UK (ships EU)",
+          "price": 316,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.oxdogpadel.uk/rackets",
+          "verified": false,
+          "checkedLabel": "Real official retailer confirmed to ship to EU \u2014 same product page as UK listing, price converted"
+        },
+        "US": {
+          "retailer": "Oxdog Padel UK (ships internationally)",
+          "price": 371,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://www.oxdogpadel.uk/rackets",
+          "verified": false,
+          "checkedLabel": "Real official retailer confirmed to ship internationally \u2014 same product page as UK listing, price converted"
+        }
+      }
     },
     {
       "racketId": "oxdog-hyper-pro-plus-26",
-      "retailer": "Oxdog Padel UK",
-      "price": 265,
-      "originalPrice": 199,
-      "url": "https://www.oxdogpadel.uk/rackets",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real official UK store price list"
+      "regions": {
+        "UK": {
+          "retailer": "Oxdog Padel UK",
+          "price": 265,
+          "originalPrice": 199,
+          "currency": "GBP",
+          "url": "https://www.oxdogpadel.uk/rackets",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real official UK store price list"
+        },
+        "EU": {
+          "retailer": "Oxdog Padel UK (ships EU)",
+          "price": 305,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.oxdogpadel.uk/rackets",
+          "verified": false,
+          "checkedLabel": "Real official retailer confirmed to ship to EU \u2014 same product page as UK listing, price converted"
+        },
+        "US": {
+          "retailer": "Oxdog Padel UK (ships internationally)",
+          "price": 358,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://www.oxdogpadel.uk/rackets",
+          "verified": false,
+          "checkedLabel": "Real official retailer confirmed to ship internationally \u2014 same product page as UK listing, price converted"
+        }
+      }
     },
     {
       "racketId": "adidas-metalbone",
-      "retailer": "PDHSports",
-      "price": 238,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/adidas-metalbone-padel-racket-2026",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports",
+          "price": 238,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/adidas-metalbone-padel-racket-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 312,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/adidas-metalbone-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 455,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/collections/adidas-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel USA, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "adidas-adipower-ctrl",
-      "retailer": "PDHSports (UK)",
-      "price": 229,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/adidas-adipower-multiweight-ctrl-pro-edition-padel-racket-25",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price, confirmed live"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 229,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/adidas-adipower-multiweight-ctrl-pro-edition-padel-racket-25",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price, confirmed live"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 263,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/adidas",
+          "verified": false,
+          "checkedLabel": "Real EU retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 334,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/collections/adidas-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel USA, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "head-flash",
-      "retailer": "All Things Tennis",
-      "price": 60,
-      "originalPrice": null,
-      "url": "https://allthingstennis.co.uk/products/head-vibe-padel-black-purple",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "All Things Tennis",
+          "price": 60,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://allthingstennis.co.uk/products/head-vibe-padel-black-purple",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 97,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/head-coello-vibe-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 110,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/head-vibe-2026-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "bullpadel-indiga-control-26",
-      "retailer": "PDHSports",
-      "price": 75,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/bullpadel-indiga-ctr-padel-racket-26",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports",
+          "price": 75,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/bullpadel-indiga-ctr-padel-racket-26",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 63,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/bullpadel-indiga-w-26-woman",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+        },
+        "US": {
+          "retailer": "Racket Central (US)",
+          "price": 101,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://racketcentral.com/collections/bullpadel-rackets",
+          "verified": false,
+          "checkedLabel": "Real US retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        }
+      }
     },
     {
       "racketId": "bp-vertex-05",
-      "retailer": "PDHSports",
-      "price": 180,
-      "originalPrice": 289,
-      "url": "https://pdhsports.com/products/bullpadel-vertex-05-26-padel-racket",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports",
+          "price": 180,
+          "originalPrice": 289,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/bullpadel-vertex-05-26-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 195,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/bullpadel-vertex-05",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+        },
+        "US": {
+          "retailer": "Racket Central (US)",
+          "price": 243,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://racketcentral.com/collections/bullpadel-rackets",
+          "verified": false,
+          "checkedLabel": "Real US retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        }
+      }
     },
     {
       "racketId": "bp-hack-04",
-      "retailer": "PDHSports",
-      "price": 170,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/bullpadel-hack-04-hybrid-26-padel-racket",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports",
+          "price": 170,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/bullpadel-hack-04-hybrid-26-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 144,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/bullpadel-hack-04-25-113754-p",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+        },
+        "US": {
+          "retailer": "Racket Central (US)",
+          "price": 230,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://racketcentral.com/collections/bullpadel-rackets",
+          "verified": false,
+          "checkedLabel": "Real US retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        }
+      }
     },
     {
       "racketId": "bp-neuron-02",
-      "retailer": "PDHSports",
-      "price": 170,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/bullpadel-neuron-02-26-padel-racket",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports",
+          "price": 170,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/bullpadel-neuron-02-26-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 245,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/bullpadel-neuron-02-premier-padel-26",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+        },
+        "US": {
+          "retailer": "Racket Central (US)",
+          "price": 263,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://racketcentral.com/collections/bullpadel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel USA, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "bp-vertex-comfort",
-      "retailer": "PDHSports",
-      "price": 130,
-      "originalPrice": 209,
-      "url": "https://pdhsports.com/products/bullpadel-vertex-05-comfort-26-padel-racket",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports",
+          "price": 130,
+          "originalPrice": 209,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/bullpadel-vertex-05-comfort-26-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 110,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/bullpadel-vertex-04-comfort-110866-p",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+        },
+        "US": {
+          "retailer": "Racket Central (US)",
+          "price": 176,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://racketcentral.com/collections/bullpadel-rackets",
+          "verified": false,
+          "checkedLabel": "Real US retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        }
+      }
     },
     {
       "racketId": "bp-vertex-advance",
-      "retailer": "PDHSports",
-      "price": 112,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/bullpade-vertex-advance-padel-racket-26",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports",
+          "price": 112,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/bullpade-vertex-advance-padel-racket-26",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 150,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/bullpadel-vertex-04-110865-p",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+        },
+        "US": {
+          "retailer": "Racket Central (US)",
+          "price": 151,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://racketcentral.com/collections/bullpadel-rackets",
+          "verified": false,
+          "checkedLabel": "Real US retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        }
+      }
     },
     {
       "racketId": "bp-xplo-26",
-      "retailer": "PDHSports",
-      "price": 170,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/bullpadel-xplo-26-padel-racket",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports",
+          "price": 170,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/bullpadel-xplo-26-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 205,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/bullpadel-xplo-26",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+        },
+        "US": {
+          "retailer": "Racket Central (US)",
+          "price": 279,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://racketcentral.com/collections/bullpadel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel USA, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "nox-at10-genius-18k",
-      "retailer": "PDHSports (UK)",
-      "price": 238.99,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/nox-at10-genius-attack-18k-alum-agustin-tapia-padel-racket-26",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 238.99,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/nox-at10-genius-attack-18k-alum-agustin-tapia-padel-racket-26",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 215,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/nox-at10-genius-18k-alum-by-agustin-tapia-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real via live page fetch"
+        },
+        "US": {
+          "retailer": "Nox USA (official store)",
+          "price": 320,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://noxsportusa.com/collections/padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real official US store, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "nox-at10-pro-cup-soft",
-      "retailer": "PDHSports (UK)",
-      "price": 148.75,
-      "originalPrice": 199,
-      "url": "https://pdhsports.com/products/nox-at10-pro-cup-soft-agustin-tapia-padel-racket-26",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 148.75,
+          "originalPrice": 199,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/nox-at10-pro-cup-soft-agustin-tapia-padel-racket-26",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 149,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/nox",
+          "verified": false,
+          "checkedLabel": "Real EU retailer category page \u2014 exact product URL not individually confirmed"
+        },
+        "US": {
+          "retailer": "Nox USA (official store)",
+          "price": 220,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://noxsportusa.com/collections/padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real official US store, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "nox-ml10-ventus-control-3k",
-      "retailer": "PDHSports (UK)",
-      "price": 209.99,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/nox-ml10-ventus-3k-miguel-lamperti-padel-racket-26",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 209.99,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/nox-ml10-ventus-3k-miguel-lamperti-padel-racket-26",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 200,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/nox-ml10-ventus-control-3k-by-miguel-lamperti-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real via live page fetch"
+        },
+        "US": {
+          "retailer": "Nox USA (official store)",
+          "price": 400,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://noxsportusa.com/collections/padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real official US store, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "nox-vk10-ventus-control-12k",
-      "retailer": "PDHSports (UK)",
-      "price": 178.49,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/nox-vk10-ventus-12k-aranzazu-osoro-padel-racket-26",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 178.49,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/nox-vk10-ventus-12k-aranzazu-osoro-padel-racket-26",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 185,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/nox-vk10-ventus-control-12k-by-aranzazu-osoro-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real via live page fetch"
+        },
+        "US": {
+          "retailer": "Nox USA (official store)",
+          "price": 350,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://noxsportusa.com/collections/padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real official US store, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "nox-equation-soft",
-      "retailer": "PDHSports (UK)",
-      "price": 94.99,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/nox-equation-soft-advanced-padel-racket-26",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 94.99,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/nox-equation-soft-advanced-padel-racket-26",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 110,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/nox",
+          "verified": false,
+          "checkedLabel": "Real EU retailer category page \u2014 exact product URL not individually confirmed"
+        },
+        "US": {
+          "retailer": "Nox USA (official store)",
+          "price": 158,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://noxsportusa.com/collections/padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real official US store, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "nox-x-hero",
-      "retailer": "PDHSports (UK)",
-      "price": 53.99,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/nox-x-hero-padel-racket-26-white",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 53.99,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/nox-x-hero-padel-racket-26-white",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 59,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/nox",
+          "verified": false,
+          "checkedLabel": "Real EU retailer category page \u2014 exact product URL not individually confirmed"
+        },
+        "US": {
+          "retailer": "Nox USA (official store)",
+          "price": 99,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://noxsportusa.com/collections/padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real official US store, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "adidas-drive-black",
-      "retailer": "AllForPadel (official mirror)",
-      "price": 79,
-      "originalPrice": null,
-      "url": "https://allforpadel.com/en/54-padel-rackets",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real official-range listing; exact price not individually confirmed"
+      "regions": {
+        "UK": {
+          "retailer": "AllForPadel (official mirror)",
+          "price": 79,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://allforpadel.com/en/54-padel-rackets",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real official-range listing; exact price not individually confirmed"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 64,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/adidas-drive-blue-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 107,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/collections/adidas-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Real US retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        }
+      }
     },
     {
       "racketId": "adidas-rx-series",
-      "retailer": "PaddleballGalaxy",
-      "price": 115,
-      "originalPrice": null,
-      "url": "https://www.paddleballgalaxy.com/adidas-padel-paddles.html",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 (~$140) — real retailer listing"
+      "regions": {
+        "UK": {
+          "retailer": "PaddleballGalaxy",
+          "price": 115,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://www.paddleballgalaxy.com/adidas-padel-paddles.html",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 (~$140) \u2014 real retailer listing"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 132,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/adidas",
+          "verified": false,
+          "checkedLabel": "Real EU retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 155,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/collections/adidas-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Real US retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        }
+      }
     },
     {
       "racketId": "adidas-arrow-hit",
-      "retailer": "PDHSports",
-      "price": 270,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/adidas-arrow-hit-attk-padel-racket-2026",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports",
+          "price": 270,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/adidas-arrow-hit-attk-padel-racket-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 320,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/adidas-arrow-hit-attk-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 465,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/collections/adidas-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel USA, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "adidas-metalbone-carbon",
-      "retailer": "PDHSports",
-      "price": 180,
-      "originalPrice": 289,
-      "url": "https://pdhsports.com/products/adidas-metalbone-carbon-padel-racket-2026",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports",
+          "price": 180,
+          "originalPrice": 289,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/adidas-metalbone-carbon-padel-racket-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 216,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/adidas-metalbone-carbon-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 305,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/collections/adidas-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel USA, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "head-extreme-pro",
-      "retailer": "Tennis-Point UK",
-      "price": 198,
-      "originalPrice": null,
-      "url": "https://www.tennis-point.co.uk/padel-padel-racket/head/",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer (Extreme Motion pricing used as nearest real reference)"
+      "regions": {
+        "UK": {
+          "retailer": "Tennis-Point UK",
+          "price": 198,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://www.tennis-point.co.uk/padel-padel-racket/head/",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer (Extreme Motion pricing used as nearest real reference)"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 175,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/head-extreme-pro-2025",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 300,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/head-extreme-pro-2025-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "head-gravity-pro",
-      "retailer": "Tennis-Point UK",
-      "price": 150,
-      "originalPrice": null,
-      "url": "https://www.tennis-point.co.uk/padel-padel-racket/head/",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer"
+      "regions": {
+        "UK": {
+          "retailer": "Tennis-Point UK",
+          "price": 150,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://www.tennis-point.co.uk/padel-padel-racket/head/",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 172,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/head",
+          "verified": false,
+          "checkedLabel": "Real EU retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 255,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/head-gravity-pro-2025-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "head-gravity-motion",
-      "retailer": "Tennis-Point UK",
-      "price": 130,
-      "originalPrice": 169,
-      "url": "https://www.tennis-point.co.uk/padel-padel-racket/head/",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer"
+      "regions": {
+        "UK": {
+          "retailer": "Tennis-Point UK",
+          "price": 130,
+          "originalPrice": 169,
+          "currency": "GBP",
+          "url": "https://www.tennis-point.co.uk/padel-padel-racket/head/",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 150,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/head",
+          "verified": false,
+          "checkedLabel": "Real EU retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 210,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/head-gravity-motion-2024-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "babolat-air-viper",
-      "retailer": "PDHSports (UK)",
-      "price": 223.99,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/babolat-air-viper-2-6-padel-racket",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price, in stock"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 223.99,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/babolat-air-viper-2-6-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price, in stock"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 258,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/babolat",
+          "verified": false,
+          "checkedLabel": "Real EU retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 272,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/babolat-air-viper-2-6-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "babolat-counter-vertuo",
-      "retailer": "PDHSports (UK)",
-      "price": 125.99,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/babolat-counter-vertuo-2-6-padel-racket",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price, in stock"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 125.99,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/babolat-counter-vertuo-2-6-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price, in stock"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 145,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/babolat",
+          "verified": false,
+          "checkedLabel": "Real EU retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 160,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/babolat-counter-vertuo-usa",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "babolat-viper-soft",
-      "retailer": "PDHSports (UK)",
-      "price": 199.99,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/babolat-technical-viper-soft-3-0-padel-racket",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price, in stock"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 199.99,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/babolat-technical-viper-soft-3-0-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price, in stock"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 230,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/babolat",
+          "verified": false,
+          "checkedLabel": "Real EU retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 250,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/babolat-technical-viper-soft-3-0-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "wilson-defy-pro-v1",
-      "retailer": "Racket Central",
-      "price": 199,
-      "originalPrice": null,
-      "url": "https://racketcentral.com/collections/wilson-padel-rackets",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real retailer collection page; exact price not individually confirmed — model name corrected to a verified real product name"
+      "regions": {
+        "UK": {
+          "retailer": "Racket Central",
+          "price": 199,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://racketcentral.com/collections/wilson-padel-rackets",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real retailer collection page; exact price not individually confirmed \u2014 model name corrected to a verified real product name"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 240,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/wilson",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel Nuestro, exact individual product URL not confirmed"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 329,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/wilson-defy-v1-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "wilson-optix-v2",
-      "retailer": "All Things Padel",
-      "price": 80,
-      "originalPrice": null,
-      "url": "https://allthingspadel.co.uk/collections/wilson-optix-rackets",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer"
+      "regions": {
+        "UK": {
+          "retailer": "All Things Padel",
+          "price": 80,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://allthingspadel.co.uk/collections/wilson-optix-rackets",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 70,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/wilson",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel Nuestro, exact individual product URL not confirmed"
+        },
+        "US": {
+          "retailer": "Padel USA",
+          "price": 139,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/wilson-optix-v2-lite-2026-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 exact product page confirmed real"
+        }
+      }
     },
     {
       "racketId": "siux-fenix-pro-black",
-      "retailer": "PDHSports (UK)",
-      "price": 300,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/siux-fenix-pro-black-padel-racket-2026",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price, in stock"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 300,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/siux-fenix-pro-black-padel-racket-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price, in stock"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 345,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/siux",
+          "verified": false,
+          "checkedLabel": "Real EU retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        },
+        "US": {
+          "retailer": "PadelPROShop (US)",
+          "price": 260,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelproshop.com/en-us/collections/siux-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel USA, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "siux-trilogy-pro",
-      "retailer": "PDHSports (UK)",
-      "price": 147.5,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/siux-trilogy-pro-5-padel-racket",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price, in stock"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 147.5,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/siux-trilogy-pro-5-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price, in stock"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 113,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/siux",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel Nuestro, exact individual product URL not confirmed"
+        },
+        "US": {
+          "retailer": "PadelPROShop (US)",
+          "price": 200,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelproshop.com/en-us/collections/siux-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel USA, exact individual product URL not confirmed"
+        }
+      }
     },
     {
       "racketId": "siux-fenix-go-4",
-      "retailer": "PDHSports (UK)",
-      "price": 199.99,
-      "originalPrice": null,
-      "url": "https://pdhsports.com/products/siux-electra-pro-shadow-red-padel-racket-2026",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real UK retailer, GBP price, in stock"
+      "regions": {
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 199.99,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/products/siux-electra-pro-shadow-red-padel-racket-2026",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real UK retailer, GBP price, in stock"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 65,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/siux",
+          "verified": false,
+          "checkedLabel": "Checked August 2026 \u2014 real price confirmed via Padel Nuestro, exact individual product URL not confirmed"
+        },
+        "US": {
+          "retailer": "PadelPROShop (US)",
+          "price": 270,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://padelproshop.com/en-us/collections/siux-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Real US retailer brand page \u2014 exact product URL and price not individually confirmed, price estimated from UK listing"
+        }
+      }
     },
     {
       "racketId": "oxdog-ultimate-pro-plus-26",
-      "retailer": "Oxdog Padel UK",
-      "price": 285,
-      "originalPrice": null,
-      "url": "https://www.oxdogpadel.uk/rackets",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real official UK store price list"
+      "regions": {
+        "UK": {
+          "retailer": "Oxdog Padel UK",
+          "price": 285,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://www.oxdogpadel.uk/rackets",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real official UK store price list"
+        },
+        "EU": {
+          "retailer": "Oxdog Padel UK (ships EU)",
+          "price": 328,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.oxdogpadel.uk/rackets",
+          "verified": false,
+          "checkedLabel": "Real official retailer confirmed to ship to EU \u2014 same product page as UK listing, price converted"
+        },
+        "US": {
+          "retailer": "Oxdog Padel UK (ships internationally)",
+          "price": 385,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://www.oxdogpadel.uk/rackets",
+          "verified": false,
+          "checkedLabel": "Real official retailer confirmed to ship internationally \u2014 same product page as UK listing, price converted"
+        }
+      }
     },
     {
       "racketId": "oxdog-pure-court-26",
-      "retailer": "Oxdog Padel UK",
-      "price": 125,
-      "originalPrice": null,
-      "url": "https://www.oxdogpadel.uk/rackets",
       "inStock": true,
-      "verified": true,
       "isBestPrice": true,
-      "checkedLabel": "Checked August 2026 — real official UK store price list"
+      "regions": {
+        "UK": {
+          "retailer": "Oxdog Padel UK",
+          "price": 125,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://www.oxdogpadel.uk/rackets",
+          "verified": true,
+          "checkedLabel": "Checked August 2026 \u2014 real official UK store price list"
+        },
+        "EU": {
+          "retailer": "Oxdog Padel UK (ships EU)",
+          "price": 144,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.oxdogpadel.uk/rackets",
+          "verified": false,
+          "checkedLabel": "Real official retailer confirmed to ship to EU \u2014 same product page as UK listing, price converted"
+        },
+        "US": {
+          "retailer": "Oxdog Padel UK (ships internationally)",
+          "price": 169,
+          "originalPrice": null,
+          "currency": "USD",
+          "url": "https://www.oxdogpadel.uk/rackets",
+          "verified": false,
+          "checkedLabel": "Real official retailer confirmed to ship internationally \u2014 same product page as UK listing, price converted"
+        }
+      }
     }
   ]
 }

@@ -5,7 +5,7 @@ import { INK } from "@/lib/theme";
 
 export function CompareTable({ items, onClose }) {
   const rows = [
-    ["Price", (i) => `£${i.listing.price}`],
+    ["Price", (i) => `${i.listing.currencySymbol}${i.listing.price}`],
     ["Weight", (i) => `${i.racket.weightG}g`],
     ["Balance", (i) => i.racket.balance],
     ["Shape", (i) => i.racket.shape],
