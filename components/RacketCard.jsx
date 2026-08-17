@@ -30,8 +30,8 @@ export function RacketCard({ item, answers, rank, onCompareToggle, comparing }) 
             <h3 className="font-serif text-[19px] leading-tight mt-0.5" style={{ color: INK }}>{racket.brand} {racket.model}</h3>
             <p className="text-[13px] text-black/45 mt-0.5">{racket.shape} · {racket.year}</p>
             <p className="text-[14px] font-semibold mt-1" style={{ color: INK }}>
-              £{listing.price}
-              {onSale && <span className="text-[13px] font-normal text-black/40"> (reduced from £{listing.originalPrice})</span>}
+              {listing.currencySymbol}{listing.price}
+              {onSale && <span className="text-[13px] font-normal text-black/40"> (reduced from {listing.currencySymbol}{listing.originalPrice})</span>}
             </p>
             <p className="text-[11px] mt-0.5 font-medium" style={{ color: TEAL_DARK }}>{listing.isBestPrice ? "Best price we found" : "Price estimate"} · {listing.checkedLabel}</p>
             {listing.url ? (
