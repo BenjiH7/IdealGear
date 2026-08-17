@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/next";
 // via their own generateMetadata() — this is just the fallback plus the
 // shared tags (favicon, Open Graph defaults) that apply everywhere.
 export const metadata = {
-  metadataBase: new URL("https://idealgear.co"), // real domain — update if this ever changes
+  metadataBase: new URL("https://www.idealgear.co"), // real production domain — idealgear.co (no www) redirects here, so this must match, not the other way round
   title: {
     default: "IdealGear — Find the padel racket that fits your game",
     template: "%s | IdealGear",
