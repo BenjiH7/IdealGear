@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "August 2026",
+  "lastUpdated": "October 2026",
   "racketCatalog": [
     {
       "id": "bp-vertex-04",
@@ -1784,59 +1784,59 @@
           "currency": "GBP",
           "url": "https://www.amazon.co.uk/Bullpadel-Vertex-Padel-Racket-Dark/dp/B0DHZJL6FJ",
           "verified": true,
-          "checkedLabel": "Checked August 2026"
+          "checkedLabel": "Checked 28 Oct 2026 — page loads, correct racket confirmed; price/stock not extractable (JS-rendered Amazon widgets), unchanged from last known"
         },
         "EU": {
           "retailer": "Padel Nuestro",
-          "price": 150,
-          "originalPrice": null,
+          "price": 134.95,
+          "originalPrice": 299.95,
           "currency": "EUR",
           "url": "https://www.padelnuestro.com/int/bullpadel-vertex-04-110865-p",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+          "checkedLabel": "Checked 28 Oct 2026 — exact product page confirmed, title 'BULLPADEL VERTEX 04', now €134.95 (was €299.95, -55%), in stock"
         },
         "US": {
-          "retailer": "Racket Central (US)",
+          "retailer": "Padel USA",
           "price": 279,
           "originalPrice": null,
           "currency": "USD",
-          "url": "https://racketcentral.com/collections/bullpadel-rackets",
+          "url": "https://padelusa.com/collections/bullpadel",
           "verified": false,
-          "checkedLabel": "Checked August 2026 — real price confirmed via Padel USA, exact individual product URL not confirmed"
+          "checkedLabel": "Checked 28 Oct 2026 — Racket Central now returns HTTP 403 to all fetches (site-wide block). Padel USA doesn't carry a plain 'Vertex 04' (only a sold-out player edition); used real Bullpadel collection page as unverified fallback"
         }
       }
     },
     {
       "racketId": "bp-hack-03",
-      "inStock": true,
+      "inStock": false,
       "isBestPrice": true,
       "regions": {
         "UK": {
-          "retailer": "PDHSports",
-          "price": 179,
-          "originalPrice": 199,
+          "retailer": "Tennisnuts",
+          "price": 169.94,
+          "originalPrice": 260,
           "currency": "GBP",
-          "url": "https://www.pdhsports.com/i/q/RPBP32336/bullpadel-hack-03-24-padel-racket",
+          "url": "https://www.tennisnuts.com/bullpadel-hack-03-padel-racket-1655372.html",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+          "checkedLabel": "Checked 28 Oct 2026 — old PDHSports URL confirmed dead (404). Tennisnuts page confirmed real/exact (Hack 03 24), but out of stock"
         },
         "EU": {
-          "retailer": "Padel Nuestro",
-          "price": 120,
-          "originalPrice": null,
+          "retailer": "Zona de Padel",
+          "price": 72.5,
+          "originalPrice": 290,
           "currency": "EUR",
-          "url": "https://www.padelnuestro.com/int/bullpadel-xplo-2025-113777-p",
+          "url": "https://www.zonadepadel.com/bullpadel/9043-bullpadel-hack-03-2024.html",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+          "checkedLabel": "Checked 28 Oct 2026 — KNOWN BUG CONFIRMED: old EU url actually showed Bullpadel XPLO 25, not Hack 03. Padel Nuestro's own Hack 03 page now 404s. Replacement at Zona de Padel confirmed real & exact, but explicitly marked 'deprecated' by the retailer and out of stock"
         },
         "US": {
-          "retailer": "Racket Central (US)",
+          "retailer": "Padel USA",
           "price": 242,
           "originalPrice": null,
           "currency": "USD",
-          "url": "https://racketcentral.com/collections/bullpadel-rackets",
+          "url": "https://padelusa.com/collections/bullpadel",
           "verified": false,
-          "checkedLabel": "Real US retailer brand page — exact product URL and price not individually confirmed, price estimated from UK listing"
+          "checkedLabel": "Checked 28 Oct 2026 — Racket Central blocked (403). Hack 03 not found in Padel USA's catalog at all. No confirmed US listing found"
         }
       }
     },
@@ -2352,35 +2352,35 @@
     },
     {
       "racketId": "bullpadel-indiga-control-26",
-      "inStock": true,
+      "inStock": false,
       "isBestPrice": true,
       "regions": {
         "UK": {
-          "retailer": "PDHSports",
-          "price": 75,
-          "originalPrice": null,
+          "retailer": "Central Sports",
+          "price": 74.99,
+          "originalPrice": 90,
           "currency": "GBP",
-          "url": "https://pdhsports.com/products/bullpadel-indiga-ctr-padel-racket-26",
+          "url": "https://centralsports.co.uk/products/bullpadel-indiga-ctr-26-padel-racket-078987",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+          "checkedLabel": "Checked 28 Oct 2026 — old PDHSports URL confirmed dead (404). Central Sports page confirmed real & exact; shows conflicting 'Sold Out'/'Coming Soon' labels, treated as out of stock"
         },
         "EU": {
           "retailer": "Padel Nuestro",
-          "price": 63,
-          "originalPrice": null,
+          "price": 69.95,
+          "originalPrice": 89.95,
           "currency": "EUR",
-          "url": "https://www.padelnuestro.com/int/bullpadel-indiga-w-26-woman",
+          "url": "https://www.padelnuestro.com/int/bullpadel-indiga-ctr-26",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+          "checkedLabel": "Checked 28 Oct 2026 — BUG FOUND: old url (vertex/indiga-w-26-woman) now soft-redirects to a generic category page, not the Indiga CTR. Replacement found and confirmed: exact match 'BULLPADEL INDIGA CTR 26', €69.95 (was €89.95), out of stock"
         },
         "US": {
-          "retailer": "Racket Central (US)",
+          "retailer": "Padel USA",
           "price": 101,
           "originalPrice": null,
           "currency": "USD",
-          "url": "https://racketcentral.com/collections/bullpadel-rackets",
+          "url": "https://padelusa.com/collections/bullpadel",
           "verified": false,
-          "checkedLabel": "Real US retailer brand page — exact product URL and price not individually confirmed, price estimated from UK listing"
+          "checkedLabel": "Checked 28 Oct 2026 — Racket Central blocked (403). Indiga not found anywhere in Padel USA's catalog. No confirmed US listing found"
         }
       }
     },
@@ -2391,30 +2391,30 @@
       "regions": {
         "UK": {
           "retailer": "PDHSports",
-          "price": 180,
-          "originalPrice": 289,
+          "price": 306,
+          "originalPrice": 340,
           "currency": "GBP",
-          "url": "https://pdhsports.com/products/bullpadel-vertex-05-26-padel-racket",
+          "url": "https://pdhsports.com/products/bullpadel-vertex-05-27-padel-racket",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+          "checkedLabel": "Checked 28 Oct 2026 — old '...vertex-05-26...' URL confirmed dead (404). Replacement confirmed real & exact-matching specs; retailer has simply relabelled it 'Vertex 05 27' this season — same racket line, not a new generation"
         },
         "EU": {
           "retailer": "Padel Nuestro",
-          "price": 195,
-          "originalPrice": null,
+          "price": 186.95,
+          "originalPrice": 339.95,
           "currency": "EUR",
           "url": "https://www.padelnuestro.com/int/bullpadel-vertex-05",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+          "checkedLabel": "Checked 28 Oct 2026 — exact page confirmed, title 'BULLPADEL VERTEX 05', now €186.95 (was €339.95, -45%), in stock"
         },
         "US": {
-          "retailer": "Racket Central (US)",
-          "price": 243,
-          "originalPrice": null,
+          "retailer": "Padel USA",
+          "price": 315.2,
+          "originalPrice": 394,
           "currency": "USD",
-          "url": "https://racketcentral.com/collections/bullpadel-rackets",
-          "verified": false,
-          "checkedLabel": "Real US retailer brand page — exact product URL and price not individually confirmed, price estimated from UK listing"
+          "url": "https://padelusa.com/products/bullpadel-vertex-05-2026-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked 28 Oct 2026 — upgraded from verified:false. Racket Central now 403-blocked entirely. Confirmed exact page at Padel USA: $315.20 (was $394, -20%); conflicting stock signals, treated as in stock"
         }
       }
     },
@@ -2424,31 +2424,31 @@
       "isBestPrice": true,
       "regions": {
         "UK": {
-          "retailer": "PDHSports",
-          "price": 170,
-          "originalPrice": null,
+          "retailer": "Tennisnuts",
+          "price": 167.99,
+          "originalPrice": 305,
           "currency": "GBP",
-          "url": "https://pdhsports.com/products/bullpadel-hack-04-hybrid-26-padel-racket",
+          "url": "https://www.tennisnuts.com/shop/padel/rackets/bullpadel/bullpadel-hack-04-padel-racket-2026-1746259.html",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+          "checkedLabel": "Checked 28 Oct 2026 — old PDHSports URL confirmed dead (404); product removed, replaced by Hack 05. Tennisnuts page confirmed real & exact, explicitly out of stock"
         },
         "EU": {
           "retailer": "Padel Nuestro",
-          "price": 144,
-          "originalPrice": null,
+          "price": 149.95,
+          "originalPrice": 299.95,
           "currency": "EUR",
           "url": "https://www.padelnuestro.com/int/bullpadel-hack-04-25-113754-p",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+          "checkedLabel": "Checked 28 Oct 2026 — exact page confirmed, title 'BULLPADEL HACK 04 2025 - PAQUITO NAVARRO', now €149.95 (was €299.95), now OUT OF STOCK (was in stock last check)"
         },
         "US": {
-          "retailer": "Racket Central (US)",
-          "price": 230,
-          "originalPrice": null,
+          "retailer": "Padel USA",
+          "price": 296.8,
+          "originalPrice": 371,
           "currency": "USD",
-          "url": "https://racketcentral.com/collections/bullpadel-rackets",
-          "verified": false,
-          "checkedLabel": "Real US retailer brand page — exact product URL and price not individually confirmed, price estimated from UK listing"
+          "url": "https://padelusa.com/products/bullpadel-hack-04-2026-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked 28 Oct 2026 — upgraded from verified:false. Confirmed exact page: $296.80 (was $371, -20%); conflicting stock signals, treated as in stock"
         }
       }
     },
@@ -2459,30 +2459,30 @@
       "regions": {
         "UK": {
           "retailer": "PDHSports",
-          "price": 170,
-          "originalPrice": null,
+          "price": 296.99,
+          "originalPrice": 330,
           "currency": "GBP",
-          "url": "https://pdhsports.com/products/bullpadel-neuron-02-26-padel-racket",
+          "url": "https://pdhsports.com/products/bullpadel-neuron-02-27-padel-racket",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+          "checkedLabel": "Checked 28 Oct 2026 — old '...neuron-02-26...' URL confirmed dead (404). Replacement confirmed real, 'Neuron 02 27' (base model), £296.99 (was £330); same relabelling pattern as Vertex 05"
         },
         "EU": {
           "retailer": "Padel Nuestro",
-          "price": 245,
-          "originalPrice": null,
+          "price": 229.95,
+          "originalPrice": 379.95,
           "currency": "EUR",
           "url": "https://www.padelnuestro.com/int/bullpadel-neuron-02-premier-padel-26",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+          "checkedLabel": "Checked 28 Oct 2026 — exact page confirmed, title 'BULLPADEL NEURON 02 PREMIER PADEL 26', now €229.95 (was €379.95), in stock"
         },
         "US": {
-          "retailer": "Racket Central (US)",
-          "price": 263,
-          "originalPrice": null,
+          "retailer": "Padel USA",
+          "price": 296.8,
+          "originalPrice": 371,
           "currency": "USD",
-          "url": "https://racketcentral.com/collections/bullpadel-rackets",
-          "verified": false,
-          "checkedLabel": "Checked August 2026 — real price confirmed via Padel USA, exact individual product URL not confirmed"
+          "url": "https://padelusa.com/products/bullpadel-neuron-02-2026-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked 28 Oct 2026 — upgraded from verified:false. Confirmed exact page, base model, $296.80 (was $371, -20%); conflicting stock signals, treated as in stock"
         }
       }
     },
@@ -2493,30 +2493,30 @@
       "regions": {
         "UK": {
           "retailer": "PDHSports",
-          "price": 130,
-          "originalPrice": 209,
+          "price": 214.99,
+          "originalPrice": 240,
           "currency": "GBP",
-          "url": "https://pdhsports.com/products/bullpadel-vertex-05-comfort-26-padel-racket",
+          "url": "https://pdhsports.com/products/bullpadel-vertex-05-comfort-27-padel-racket",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+          "checkedLabel": "Checked 28 Oct 2026 — old '...vertex-05-comfort-26...' URL confirmed dead (404). Replacement confirmed real and explicitly confirmed as Vertex 05 (not 04) Comfort, £214.99 (was £240)"
         },
         "EU": {
           "retailer": "Padel Nuestro",
           "price": 110,
           "originalPrice": null,
           "currency": "EUR",
-          "url": "https://www.padelnuestro.com/int/bullpadel-vertex-04-comfort-110866-p",
-          "verified": true,
-          "checkedLabel": "Checked August 2026 — real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+          "url": "https://www.padelnuestro.com/int/padel-rackets/bullpadel",
+          "verified": false,
+          "checkedLabel": "Checked 28 Oct 2026 — BUG CONFIRMED: old url (vertex-04-comfort-110866-p) really does show 'BULLPADEL VERTEX 04 COMFORT' — wrong model (catalogue's 'Vertex 05 Comfort' naming is correct per Tennisnuts/Central Sports/Padel USA). Padel Nuestro does not currently stock Vertex 05 Comfort at all; falling back to their general Bullpadel category page pending a direct EU page"
         },
         "US": {
-          "retailer": "Racket Central (US)",
-          "price": 176,
-          "originalPrice": null,
+          "retailer": "Padel USA",
+          "price": 232,
+          "originalPrice": 290,
           "currency": "USD",
-          "url": "https://racketcentral.com/collections/bullpadel-rackets",
-          "verified": false,
-          "checkedLabel": "Real US retailer brand page — exact product URL and price not individually confirmed, price estimated from UK listing"
+          "url": "https://padelusa.com/products/bullpadel-vertex-05-comfort-2026-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked 28 Oct 2026 — upgraded from verified:false. Confirmed exact page, explicitly listed as 'Sold out'"
         }
       }
     },
@@ -2532,25 +2532,25 @@
           "currency": "GBP",
           "url": "https://pdhsports.com/products/bullpade-vertex-advance-padel-racket-26",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+          "checkedLabel": "Checked 28 Oct 2026 — reconfirmed real and exact (title 'Bullpadel Vertex Advance Padel Racket 26'), £112 (was £150, -25%), in stock"
         },
         "EU": {
-          "retailer": "Padel Nuestro",
-          "price": 150,
-          "originalPrice": null,
+          "retailer": "Zona de Padel",
+          "price": 126.95,
+          "originalPrice": 140,
           "currency": "EUR",
-          "url": "https://www.padelnuestro.com/int/bullpadel-vertex-04-110865-p",
+          "url": "https://www.zonadepadel.com/bullpadel/14397-bullpadel-vertex-advance-2026.html",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+          "checkedLabel": "Checked 28 Oct 2026 — BUG CONFIRMED: old EU url was a literal duplicate of bp-vertex-04's EU url and really does show Vertex 04, not Vertex Advance. Padel Nuestro does not currently stock Vertex Advance at all. Replacement at Zona de Padel confirmed real & exact, but out of stock"
         },
         "US": {
-          "retailer": "Racket Central (US)",
+          "retailer": "Padel USA",
           "price": 151,
           "originalPrice": null,
           "currency": "USD",
-          "url": "https://racketcentral.com/collections/bullpadel-rackets",
+          "url": "https://padelusa.com/collections/bullpadel",
           "verified": false,
-          "checkedLabel": "Real US retailer brand page — exact product URL and price not individually confirmed, price estimated from UK listing"
+          "checkedLabel": "Checked 28 Oct 2026 — Racket Central blocked (403). Vertex Advance not found anywhere in Padel USA's catalog. No confirmed US listing found"
         }
       }
     },
@@ -2561,30 +2561,30 @@
       "regions": {
         "UK": {
           "retailer": "PDHSports",
-          "price": 170,
-          "originalPrice": null,
+          "price": 288,
+          "originalPrice": 320,
           "currency": "GBP",
-          "url": "https://pdhsports.com/products/bullpadel-xplo-26-padel-racket",
+          "url": "https://pdhsports.com/products/bullpadel-xplo-27-padel-racket",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — exact product page confirmed real"
+          "checkedLabel": "Checked 28 Oct 2026 — old '...xplo-26...' URL confirmed dead (404). PDHSports no longer lists an exact 'XPLO 26'; used confirmed-real 'Xplo 27' (same lineage) as the practical replacement, £288 (was £320)"
         },
         "EU": {
           "retailer": "Padel Nuestro",
-          "price": 205,
-          "originalPrice": null,
+          "price": 159.95,
+          "originalPrice": 319.95,
           "currency": "EUR",
           "url": "https://www.padelnuestro.com/int/bullpadel-xplo-26",
           "verified": true,
-          "checkedLabel": "Checked August 2026 — real EU retailer (ships Spain/France/Germany/Netherlands/Italy)"
+          "checkedLabel": "Checked 28 Oct 2026 — exact page confirmed, title 'BULLPADEL XPLO 26' (exact match, no year-suffix issue here), now €159.95 (was €319.95, -50%), in stock"
         },
         "US": {
-          "retailer": "Racket Central (US)",
-          "price": 279,
-          "originalPrice": null,
+          "retailer": "Padel USA",
+          "price": 296.8,
+          "originalPrice": 371,
           "currency": "USD",
-          "url": "https://racketcentral.com/collections/bullpadel-rackets",
-          "verified": false,
-          "checkedLabel": "Checked August 2026 — real price confirmed via Padel USA, exact individual product URL not confirmed"
+          "url": "https://padelusa.com/products/bullpadel-xplo-2026-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked 28 Oct 2026 — upgraded from verified:false. Confirmed exact page, $296.80 (was $371, -20%); conflicting stock signals, treated as in stock"
         }
       }
     },
