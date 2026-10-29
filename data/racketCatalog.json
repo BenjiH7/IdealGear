@@ -24,50 +24,6 @@
       "armFriendly": 4
     },
     {
-      "id": "bp-hack-03",
-      "brand": "Bullpadel",
-      "model": "Hack 03",
-      "year": 2024,
-      "shape": "Diamond",
-      "weightG": 365,
-      "balance": "High",
-      "core": "EVA firm",
-      "surface": "Carbon/Fibreglass hybrid",
-      "power": 9,
-      "control": 5,
-      "maneuverability": 4,
-      "comfort": 4,
-      "spin": 7,
-      "defense": 3,
-      "offense": 9,
-      "beginnerFit": 1,
-      "intermediateFit": 4,
-      "advancedFit": 9,
-      "armFriendly": 3
-    },
-    {
-      "id": "nox-ml10",
-      "brand": "Nox",
-      "model": "ML10 Pro Cup",
-      "year": 2025,
-      "shape": "Round",
-      "weightG": 360,
-      "balance": "Low-Medium",
-      "core": "HR3 foam",
-      "surface": "Carbon 12K",
-      "power": 6,
-      "control": 9,
-      "maneuverability": 8,
-      "comfort": 8,
-      "spin": 6,
-      "defense": 8,
-      "offense": 6,
-      "beginnerFit": 8,
-      "intermediateFit": 9,
-      "advancedFit": 8,
-      "armFriendly": 8
-    },
-    {
       "id": "nox-at10",
       "brand": "Nox",
       "model": "AT10 Genius",
@@ -950,10 +906,10 @@
     {
       "id": "siux-trilogy-pro",
       "brand": "Siux",
-      "model": "Trilogy Elite 6",
+      "model": "Trilogy Pro 5",
       "year": 2026,
       "shape": "Round",
-      "weightG": 367,
+      "weightG": 365,
       "balance": "Low",
       "core": "EVA Soft",
       "surface": "Carbon 24K",
@@ -1254,6 +1210,116 @@
       "intermediateFit": 7,
       "advancedFit": 5,
       "armFriendly": 6
+    },
+    {
+      "id": "adidas-metalbone-carbon-ctrl",
+      "brand": "Adidas",
+      "model": "Metalbone Carbon Ctrl",
+      "year": 2026,
+      "shape": "Round",
+      "weightG": 368,
+      "balance": "Medium",
+      "core": "EVA Soft Performance",
+      "surface": "Carbon",
+      "power": 5,
+      "control": 9,
+      "maneuverability": 7,
+      "comfort": 7,
+      "spin": 6,
+      "defense": 8,
+      "offense": 5,
+      "beginnerFit": 4,
+      "intermediateFit": 7,
+      "advancedFit": 8,
+      "armFriendly": 6
+    },
+    {
+      "id": "adidas-arrow-hit-ctrl",
+      "brand": "Adidas",
+      "model": "Arrow Hit CTRL",
+      "year": 2026,
+      "shape": "Round",
+      "weightG": 368,
+      "balance": "Medium",
+      "core": "EVA Soft",
+      "surface": "Carbon",
+      "power": 4,
+      "control": 9,
+      "maneuverability": 7,
+      "comfort": 7,
+      "spin": 6,
+      "defense": 9,
+      "offense": 4,
+      "beginnerFit": 4,
+      "intermediateFit": 7,
+      "advancedFit": 8,
+      "armFriendly": 6
+    },
+    {
+      "id": "adidas-cross-it-light-3-4",
+      "brand": "Adidas",
+      "model": "Cross It Light 3.4",
+      "year": 2026,
+      "shape": "Round",
+      "weightG": 355,
+      "balance": "Low-Medium",
+      "core": "EVA Soft Energy",
+      "surface": "Carbon",
+      "power": 4,
+      "control": 8,
+      "maneuverability": 9,
+      "comfort": 8,
+      "spin": 5,
+      "defense": 8,
+      "offense": 4,
+      "beginnerFit": 7,
+      "intermediateFit": 8,
+      "advancedFit": 5,
+      "armFriendly": 8
+    },
+    {
+      "id": "adidas-metalbone-ctrl",
+      "brand": "Adidas",
+      "model": "Metalbone Ctrl",
+      "year": 2026,
+      "shape": "Round",
+      "weightG": 360,
+      "balance": "Medium",
+      "core": "EVA Soft",
+      "surface": "Carbon",
+      "power": 4,
+      "control": 9,
+      "maneuverability": 7,
+      "comfort": 6,
+      "spin": 6,
+      "defense": 8,
+      "offense": 4,
+      "beginnerFit": 3,
+      "intermediateFit": 6,
+      "advancedFit": 8,
+      "armFriendly": 5
+    },
+    {
+      "id": "adidas-metalbone-hrd-plus",
+      "brand": "Adidas",
+      "model": "Metalbone HRD+",
+      "year": 2026,
+      "shape": "Diamond",
+      "weightG": 365,
+      "balance": "High",
+      "core": "EVA High Memory",
+      "surface": "Carbon",
+      "power": 9,
+      "control": 5,
+      "maneuverability": 4,
+      "comfort": 4,
+      "spin": 8,
+      "defense": 3,
+      "offense": 9,
+      "beginnerFit": 1,
+      "intermediateFit": 4,
+      "advancedFit": 9,
+      "armFriendly": 4
     }
   ],
   "shotFit": {
@@ -1265,24 +1331,6 @@
       "kicksmash": 8,
       "lob": 4,
       "chiquita": 4
-    },
-    "bp-hack-03": {
-      "smash": 9,
-      "volley": 5,
-      "bandeja": 6,
-      "vibora": 8,
-      "kicksmash": 8,
-      "lob": 4,
-      "chiquita": 4
-    },
-    "nox-ml10": {
-      "smash": 6,
-      "volley": 9,
-      "bandeja": 8,
-      "vibora": 6,
-      "kicksmash": 5,
-      "lob": 7,
-      "chiquita": 8
     },
     "nox-at10": {
       "smash": 9,
@@ -1769,6 +1817,51 @@
       "kicksmash": 7,
       "lob": 4,
       "chiquita": 4
+    },
+    "adidas-metalbone-carbon-ctrl": {
+      "smash": 5,
+      "volley": 8,
+      "bandeja": 8,
+      "vibora": 5,
+      "kicksmash": 4,
+      "lob": 8,
+      "chiquita": 8
+    },
+    "adidas-arrow-hit-ctrl": {
+      "smash": 4,
+      "volley": 9,
+      "bandeja": 8,
+      "vibora": 4,
+      "kicksmash": 3,
+      "lob": 9,
+      "chiquita": 9
+    },
+    "adidas-cross-it-light-3-4": {
+      "smash": 4,
+      "volley": 9,
+      "bandeja": 8,
+      "vibora": 4,
+      "kicksmash": 3,
+      "lob": 9,
+      "chiquita": 9
+    },
+    "adidas-metalbone-ctrl": {
+      "smash": 4,
+      "volley": 8,
+      "bandeja": 7,
+      "vibora": 5,
+      "kicksmash": 4,
+      "lob": 8,
+      "chiquita": 8
+    },
+    "adidas-metalbone-hrd-plus": {
+      "smash": 9,
+      "volley": 5,
+      "bandeja": 6,
+      "vibora": 8,
+      "kicksmash": 8,
+      "lob": 4,
+      "chiquita": 4
     }
   },
   "listings": [
@@ -1803,74 +1896,6 @@
           "url": "https://padelusa.com/collections/bullpadel",
           "verified": false,
           "checkedLabel": "Checked 28 Oct 2026 — Racket Central now returns HTTP 403 to all fetches (site-wide block). Padel USA doesn't carry a plain 'Vertex 04' (only a sold-out player edition); used real Bullpadel collection page as unverified fallback"
-        }
-      }
-    },
-    {
-      "racketId": "bp-hack-03",
-      "inStock": false,
-      "isBestPrice": true,
-      "regions": {
-        "UK": {
-          "retailer": "Tennisnuts",
-          "price": 169.94,
-          "originalPrice": 260,
-          "currency": "GBP",
-          "url": "https://www.tennisnuts.com/bullpadel-hack-03-padel-racket-1655372.html",
-          "verified": true,
-          "checkedLabel": "Checked 28 Oct 2026 — old PDHSports URL confirmed dead (404). Tennisnuts page confirmed real/exact (Hack 03 24), but out of stock"
-        },
-        "EU": {
-          "retailer": "Zona de Padel",
-          "price": 72.5,
-          "originalPrice": 290,
-          "currency": "EUR",
-          "url": "https://www.zonadepadel.com/bullpadel/9043-bullpadel-hack-03-2024.html",
-          "verified": true,
-          "checkedLabel": "Checked 28 Oct 2026 — KNOWN BUG CONFIRMED: old EU url actually showed Bullpadel XPLO 25, not Hack 03. Padel Nuestro's own Hack 03 page now 404s. Replacement at Zona de Padel confirmed real & exact, but explicitly marked 'deprecated' by the retailer and out of stock"
-        },
-        "US": {
-          "retailer": "Padel USA",
-          "price": 242,
-          "originalPrice": null,
-          "currency": "USD",
-          "url": "https://padelusa.com/collections/bullpadel",
-          "verified": false,
-          "checkedLabel": "Checked 28 Oct 2026 — Racket Central blocked (403). Hack 03 not found in Padel USA's catalog at all. No confirmed US listing found"
-        }
-      }
-    },
-    {
-      "racketId": "nox-ml10",
-      "inStock": true,
-      "isBestPrice": true,
-      "regions": {
-        "UK": {
-          "retailer": "Nox Official Store",
-          "price": 140,
-          "originalPrice": 189.99,
-          "currency": "GBP",
-          "url": "https://noxsport.com/en/products/ml10-pro-cup-luxury-series-23",
-          "verified": true,
-          "checkedLabel": "Checked August 2026 — exact product page confirmed real"
-        },
-        "EU": {
-          "retailer": "Padel Nuestro",
-          "price": 140,
-          "originalPrice": null,
-          "currency": "EUR",
-          "url": "https://www.padelnuestro.com/int/padel-rackets/nox",
-          "verified": false,
-          "checkedLabel": "Real EU retailer category page — exact product URL not individually confirmed"
-        },
-        "US": {
-          "retailer": "Padel USA",
-          "price": 189,
-          "originalPrice": null,
-          "currency": "USD",
-          "url": "https://padelusa.com/collections/nox",
-          "verified": false,
-          "checkedLabel": "Real US retailer brand page — exact product URL and price not individually confirmed, price estimated from UK listing"
         }
       }
     },
@@ -3671,6 +3696,176 @@
           "url": "https://www.oxdogpadel.uk/rackets",
           "verified": false,
           "checkedLabel": "Checked 2026-10-28 — no confirmed dedicated US retailer found this pass; price is an estimate converted from the UK listing, not independently page-fetched in USD"
+        }
+      }
+    },
+    {
+      "racketId": "adidas-metalbone-carbon-ctrl",
+      "inStock": true,
+      "isBestPrice": true,
+      "regions": {
+        "US": {
+          "retailer": "Padel USA",
+          "price": 274.5,
+          "originalPrice": 305,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/adidas-metalbone-carbon-ctrl-2026-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked 2026-10-29 — exact product page confirmed real via direct fetch (Round, EVA Soft Performance, 360-375g range per retailer spec table, midpoint used), $274.50 (was $305); page shows conflicting in-stock/sold-out signals, treated as in stock"
+        },
+        "UK": {
+          "retailer": "Central Sports (UK)",
+          "price": 137,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://centralsports.co.uk/collections/adidas-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked 2026-10-29 — real UK retailer collection page confirmed live, exact individual product URL not found; price is an ESTIMATE derived from the confirmed US price using this catalogue’s typical US/UK pricing ratio for this brand, not independently confirmed in GBP"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 172,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/adidas",
+          "verified": false,
+          "checkedLabel": "Checked 2026-10-29 — real EU retailer brand category page confirmed live, exact individual product URL not found; price is an ESTIMATE derived from the confirmed US price using this catalogue’s typical US/EU pricing ratio for this brand, not independently confirmed in EUR"
+        }
+      }
+    },
+    {
+      "racketId": "adidas-arrow-hit-ctrl",
+      "inStock": true,
+      "isBestPrice": true,
+      "regions": {
+        "US": {
+          "retailer": "Padel USA",
+          "price": 418.5,
+          "originalPrice": 465,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/adidas-arrow-hit-ctrl-2026-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked 2026-10-29 — exact product page confirmed real via direct fetch (Round, EVA Soft, 360-375g range per retailer spec table, midpoint used), $418.50 (was $465); page shows conflicting in-stock/sold-out signals, treated as in stock"
+        },
+        "UK": {
+          "retailer": "Central Sports (UK)",
+          "price": 244.49,
+          "originalPrice": 350,
+          "currency": "GBP",
+          "url": "https://centralsports.co.uk/collections/adidas-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked 2026-10-29 — real UK retailer collection page confirmed live; exact individual product URL not found, but this exact model/price was directly sighted on the collection page (£244.49, was £350.00)"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 261,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/adidas",
+          "verified": false,
+          "checkedLabel": "Checked 2026-10-29 — real EU retailer brand category page confirmed live, exact individual product URL not found; price is an ESTIMATE derived from the confirmed US price using this catalogue’s typical US/EU pricing ratio for this brand, not independently confirmed in EUR"
+        }
+      }
+    },
+    {
+      "racketId": "adidas-cross-it-light-3-4",
+      "inStock": true,
+      "isBestPrice": true,
+      "regions": {
+        "US": {
+          "retailer": "Padel USA",
+          "price": 315,
+          "originalPrice": 350,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/adidas-cross-it-light-3-4-2026-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked 2026-10-29 — exact product page confirmed real via direct fetch (Round, EVA Soft Energy; page gives two slightly different weight ranges, 345-365g overall, averaged to 355g), $315.00 (was $350); page shows conflicting in-stock/sold-out signals, treated as in stock"
+        },
+        "UK": {
+          "retailer": "PDHSports (UK)",
+          "price": 157,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://pdhsports.com/collections/adidas-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked 2026-10-29 — real UK retailer collection page confirmed live, exact individual product URL not found; price is an ESTIMATE derived from the confirmed US price using this catalogue’s typical US/UK pricing ratio for this brand, not independently confirmed in GBP"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 197,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/adidas",
+          "verified": false,
+          "checkedLabel": "Checked 2026-10-29 — real EU retailer brand category page confirmed live, exact individual product URL not found; price is an ESTIMATE derived from the confirmed US price using this catalogue’s typical US/EU pricing ratio for this brand, not independently confirmed in EUR"
+        }
+      }
+    },
+    {
+      "racketId": "adidas-metalbone-ctrl",
+      "inStock": true,
+      "isBestPrice": true,
+      "regions": {
+        "US": {
+          "retailer": "Padel USA",
+          "price": 409.5,
+          "originalPrice": 455,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/adidas-metalbone-ctrl-2026-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked 2026-10-29 — exact product page confirmed real via direct fetch (Round, EVA Soft; page's own spec table conflicts between a 345-360g 'Technical Specs' figure and a 360-375g 'Details' figure, midpoint of the combined span used), $409.50 (was $455); page shows conflicting in-stock/sold-out signals, treated as in stock"
+        },
+        "UK": {
+          "retailer": "Central Sports (UK)",
+          "price": 205,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://centralsports.co.uk/collections/adidas-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked 2026-10-29 — real UK retailer collection page confirmed live, exact individual product URL not found; price is an ESTIMATE derived from the confirmed US price using this catalogue’s typical US/UK pricing ratio for this brand, not independently confirmed in GBP"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 256,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/adidas",
+          "verified": false,
+          "checkedLabel": "Checked 2026-10-29 — real EU retailer brand category page confirmed live, exact individual product URL not found; price is an ESTIMATE derived from the confirmed US price using this catalogue’s typical US/EU pricing ratio for this brand, not independently confirmed in EUR"
+        }
+      }
+    },
+    {
+      "racketId": "adidas-metalbone-hrd-plus",
+      "inStock": true,
+      "isBestPrice": true,
+      "regions": {
+        "US": {
+          "retailer": "Padel USA",
+          "price": 409.5,
+          "originalPrice": 455,
+          "currency": "USD",
+          "url": "https://padelusa.com/products/adidas-metalbone-hrd-2026-padel-racket",
+          "verified": true,
+          "checkedLabel": "Checked 2026-10-29 — exact product page confirmed real via direct fetch (Diamond, EVA High Memory; page's own spec table conflicts between a 345-360g 'Technical Specs' figure and a 360-375g 'Details' figure, midpoint of the combined span used), $409.50 (was $455); page shows conflicting in-stock/sold-out signals, treated as in stock"
+        },
+        "UK": {
+          "retailer": "Central Sports (UK)",
+          "price": 205,
+          "originalPrice": null,
+          "currency": "GBP",
+          "url": "https://centralsports.co.uk/collections/adidas-padel-rackets",
+          "verified": false,
+          "checkedLabel": "Checked 2026-10-29 — real UK retailer collection page confirmed live, exact individual product URL not found; price is an ESTIMATE derived from the confirmed US price using this catalogue’s typical US/UK pricing ratio for this brand, not independently confirmed in GBP"
+        },
+        "EU": {
+          "retailer": "Padel Nuestro",
+          "price": 256,
+          "originalPrice": null,
+          "currency": "EUR",
+          "url": "https://www.padelnuestro.com/int/padel-rackets/adidas",
+          "verified": false,
+          "checkedLabel": "Checked 2026-10-29 — real EU retailer brand category page confirmed live, exact individual product URL not found; price is an ESTIMATE derived from the confirmed US price using this catalogue’s typical US/EU pricing ratio for this brand, not independently confirmed in EUR"
         }
       }
     }
