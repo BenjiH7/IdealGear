@@ -31,7 +31,14 @@ export default function GuidePage({ params }) {
   const cfg = GUIDE_CONFIGS[params.topic];
   if (!cfg) notFound();
 
-  const picks = RACKET_CATALOG.filter((r) => cfg.filterFn(r, getListing)).slice(0, 3);
+  // Sorted by each guide's own relevance metric (cfg.sortFn), not just catalogue
+  // array order — otherwise newly-added rackets could never outrank older ones
+  // that happen to sit earlier in data/racketCatalog.json, even when they're a
+  // better match for the guide's topic.
+  const picks = RACKET_CATALOG
+    .filter((r) => cfg.filterFn(r, getListing))
+    .sort((a, b) => (cfg.sortFn ? cfg.sortFn(b) - cfg.sortFn(a) : 0))
+    .slice(0, 3);
 
   const jsonLd = {
     "@context": "https://schema.org",
