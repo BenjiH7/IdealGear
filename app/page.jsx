@@ -31,6 +31,7 @@ const GUIDE_LINKS = [
   ["bullpadel", "Best Bullpadel rackets"],
   ["adidas", "Best Adidas rackets"],
   ["babolat", "Best Babolat rackets"],
+  ["siux", "Best Siux rackets"],
   ["balanced", "Best padel rackets for balanced players"],
 ];
 
