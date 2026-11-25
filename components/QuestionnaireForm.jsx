@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight, Info } from "lucide-react";
 import { TEAL, TEAL_DARK, INK } from "@/lib/theme";
 import { QUESTIONS, TOTAL_STEPS } from "@/lib/engine";
-import { Chip, ProgressBar, TextArea, BudgetQuestion, BrandQuestion } from "@/components/FormControls";
+import { Chip, ProgressBar, TextArea, BudgetQuestion, BrandQuestion, SliderQuestion, PriorityRatingsQuestion } from "@/components/FormControls";
 
 export function QuestionnaireForm({ answers, setAnswers, startStep, onFinish, onCancel }) {
   const [step, setStep] = useState(startStep || 0);
@@ -70,6 +70,8 @@ export function QuestionnaireForm({ answers, setAnswers, startStep, onFinish, on
             ))}
             {q.type === "budget" && <BudgetQuestion value={current} onChange={(v) => setAnswers((p) => ({ ...p, budget: v }))} />}
             {q.type === "brand" && <BrandQuestion value={current} onChange={(v) => setAnswers((p) => ({ ...p, brands: v }))} />}
+            {q.type === "slider" && <SliderQuestion options={q.options} value={current.selected} onChange={(val) => update({ selected: val })} />}
+            {q.type === "priority-ratings" && <PriorityRatingsQuestion items={q.items} value={current} onChange={(v) => setAnswers((p) => ({ ...p, priorities: v }))} />}
           </div>
 
           {q.textLabel && q.type !== "brand" && (

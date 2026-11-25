@@ -118,3 +118,80 @@ export function BrandQuestion({ value, onChange }) {
     </div>
   );
 }
+
+// Renders the final "rate what matters to you" question: a 1-10 dropdown
+// per aspect, stored as { power: 7, control: 4, weight: 6, armComfort: 9 }
+// (keys match PRIORITY_ASPECTS from lib/engine.js).
+
+export function PriorityRatingsQuestion({ items, value, onChange }) {
+  const ratings = value || {};
+
+  const setRating = (key, raw) => {
+    const num = raw === "" ? undefined : Number(raw);
+    onChange({ ...ratings, [key]: num });
+  };
+
+  return (
+    <div className="space-y-3">
+      {items.map(({ key, label }) => (
+        <div
+          key={key}
+          className="flex items-center justify-between gap-3 px-4 py-3.5 rounded-xl border border-black/10 bg-white"
+        >
+          <span className="text-[15px] font-medium" style={{ color: INK }}>{label}</span>
+          <select
+            value={ratings[key] ?? ""}
+            onChange={(e) => setRating(key, e.target.value)}
+            className="px-3 py-2 rounded-lg border border-black/10 text-[15px] bg-white focus:outline-none focus:ring-2"
+            style={{ "--tw-ring-color": TEAL_BRIGHT }}
+          >
+            <option value="">—</option>
+            {Array.from({ length: 10 }, (_, i) => i + 1).map((n) => (
+              <option key={n} value={n}>
+                {n}
+                {n === 1 ? " · not important" : n === 10 ? " · extremely important" : ""}
+              </option>
+            ))}
+          </select>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// Renders the "How aggressive do you play?" slider question — a 5-position
+// range input mapped to options like AGGRESSION_SCALE from lib/engine.js
+// (["Very Defensive", "Fairly Defensive", "Balanced", "Aggressive", "Very
+// Aggressive"]). Stores the selected option string directly in
+// answers.aggression.selected, same shape as the existing "single" question
+// type, so it slots into the same answers-state pattern as everything else.
+export function SliderQuestion({ options, value, onChange }) {
+  const currentIndex = options.indexOf(value);
+  const index = currentIndex === -1 ? Math.floor((options.length - 1) / 2) : currentIndex; // default to middle (Balanced)
+
+  return (
+    <div className="pt-2">
+      <input
+        type="range"
+        min={0}
+        max={options.length - 1}
+        step={1}
+        value={index}
+        onChange={(e) => onChange(options[Number(e.target.value)])}
+        className="w-full accent-current"
+        style={{ accentColor: TEAL }}
+      />
+      <div className="flex justify-between mt-2">
+        {options.map((opt, i) => (
+          <span
+            key={opt}
+            className="text-[11px] text-center flex-1"
+            style={{ color: i === index ? TEAL_DARK : "rgba(11,22,21,0.4)", fontWeight: i === index ? 600 : 400 }}
+          >
+            {opt}
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
